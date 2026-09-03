@@ -5,6 +5,10 @@ reliability in LLM access to macroeconomic data. It accompanies the FinNLP 2026
 paper **“FRED-SemBench: Evaluating Semantic Reliability in LLM Access to
 Macroeconomic Data.”**
 
+Paper metadata, abstract, authors, venue, and the future ACL Anthology link are
+maintained in [`PAPER.md`](PAPER.md). The structured dataset is available on
+[Hugging Face](https://huggingface.co/datasets/wangjinh/FRED-SemBench).
+
 The release separates retrieval from semantic correctness: an answer must use
 the intended concept, series, transformation, unit, observation period, and
 data-vintage interpretation.

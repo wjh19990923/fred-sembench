@@ -87,6 +87,18 @@ class ReleaseChecksTest(unittest.TestCase):
             for row in rows
         ))
 
+    # Verify that the paper, code, and dataset discovery paths are reciprocal.
+    def test_cross_links(self) -> None:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        paper = (ROOT / "PAPER.md").read_text(encoding="utf-8")
+        github_url = "https://github.com/wjh19990923/fred-sembench"
+        dataset_url = "https://huggingface.co/datasets/wangjinh/FRED-SemBench"
+
+        self.assertIn("PAPER.md", readme)
+        self.assertIn(dataset_url, readme)
+        self.assertIn(github_url, paper)
+        self.assertIn(dataset_url, paper)
+
 
 if __name__ == "__main__":
     unittest.main()

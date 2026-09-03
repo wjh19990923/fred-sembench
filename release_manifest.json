@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "release": "v1.0.0-paper",
-  "file_count": 60,
+  "file_count": 61,
   "files": [
     {
       "path": ".gitignore",
@@ -11,8 +11,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "fe90988a5b1f644bc2e6cf1c7c347b43f99e31d58c91300de963a5dd85eae17a",
-      "size_bytes": 1087,
+      "sha256": "f8cf95dbefb5e11be5d61946be07d8964b9bdffc638bf88f4d5b66b5832294d1",
+      "size_bytes": 1168,
       "purpose": "release metadata and entry-point documentation"
     },
     {
@@ -154,6 +154,12 @@
       "purpose": "release metadata and entry-point documentation"
     },
     {
+      "path": "PAPER.md",
+      "sha256": "41a9eca68a1abcc012baa4cab499e6040ce3fdcd3527c6d72cd5b4bba5280abf",
+      "size_bytes": 1679,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
       "path": "preflight/iris_coverage_manifest.csv",
       "sha256": "4b6ac58297c3a8f9e194b10292f5b856e61a5e9e559a25db10dca9e206b212c9",
       "size_bytes": 61327,
@@ -227,8 +233,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "84f9f93084a86d49e852ac7312d64c896047253f14e03e486455629031b1b183",
-      "size_bytes": 5214,
+      "sha256": "a13124a93968249108a1d2283777abfdf08cf3f8c53a241067a8a0900ac4f33c",
+      "size_bytes": 5444,
       "purpose": "release metadata and entry-point documentation"
     },
     {
@@ -359,8 +365,8 @@
     },
     {
       "path": "tests/test_release.py",
-      "sha256": "4a0ce5c0d0e3fd017c0dda25532841858ffe9a9ab8788dc1ab9f42e6e45247c6",
-      "size_bytes": 3111,
+      "sha256": "6648f26420f36824e988045653ed2af0521b7ddd1761f1e54998c1000bc84616",
+      "size_bytes": 3677,
       "purpose": "release verification tests"
     }
   ]

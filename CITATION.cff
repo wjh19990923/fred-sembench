@@ -28,6 +28,7 @@ preferred-citation:
   type: conference-paper
   title: "FRED-SemBench: Evaluating Semantic Reliability in LLM Access to Macroeconomic Data"
   year: 2026
+  url: "https://github.com/wjh19990923/fred-sembench/blob/v1.0.0-paper/PAPER.md"
   conference:
     name: "FinNLP 2026 at EMNLP"
   authors:
