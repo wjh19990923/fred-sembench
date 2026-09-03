@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use FRED-SemBench, please cite the accompanying paper."
+title: "FRED-SemBench: Benchmark and Reproducibility Artifacts"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-03
+authors:
+  - given-names: Wilson
+    family-names: Wang
+    affiliation: Kairos-AI
+  - given-names: Chandler
+    family-names: Han
+    affiliation: Kairos-AI
+  - given-names: Peter
+    family-names: Zhang
+    affiliation: Kairos-AI
+    email: founders@kairos-ai.io
+repository-code: "https://github.com/wjh19990923/fred-sembench"
+url: "https://github.com/wjh19990923/fred-sembench"
+license: Apache-2.0
+keywords:
+  - financial NLP
+  - benchmark
+  - macroeconomic data
+  - semantic reliability
+  - agent evaluation
+preferred-citation:
+  type: conference-paper
+  title: "FRED-SemBench: Evaluating Semantic Reliability in LLM Access to Macroeconomic Data"
+  year: 2026
+  conference:
+    name: "FinNLP 2026 at EMNLP"
+  authors:
+    - given-names: Wilson
+      family-names: Wang
+    - given-names: Chandler
+      family-names: Han
+    - given-names: Peter
+      family-names: Zhang

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "fred-sembench-v1-iris-related-48-llm-iris-semantic-codex-subscription",
+  "configuration": "gpt-5.6-sol_llm-iris-cli-skill-semantic-layer-ontology_subscription",
+  "output_subdir": "output",
+  "started_at": "2026-07-31T12:53:12.622Z",
+  "completed_at": "2026-07-31T13:41:20.443Z",
+  "status": "completed",
+  "model": "gpt-5.6-sol",
+  "model_reasoning_effort": "medium",
+  "sdk": {
+    "name": "@openai/codex-sdk",
+    "version": "0.146.0",
+    "authentication": "chatgpt_subscription"
+  },
+  "iris_runtime": {
+    "repository": "Iris",
+    "interface": "iris.cli.main:main",
+    "provider_mode": "live",
+    "registry_version": "2026-06-23",
+    "skill": "iris-macro-data",
+    "mcp_sdk": "@modelcontextprotocol/sdk@1.30.0"
+  },
+  "question_count": 48,
+  "completed_count_at_start": 0,
+  "resume_count": 0,
+  "config_sha256": "8123c83bc7f592b9516ea9b4bdaaeffd82809c3a872662ae5ca33e5a90d12f47",
+  "questions_blind_sha256": "4177c5ef25676e9252d4f4f525057eb6b9b824b098ce879a5781fc3ec5b25a6b",
+  "model_instructions_sha256": "3c6c5b4d268562b2d9df2444755ee43274e90a06826e93808b07b2ed1fa21d01",
+  "iris_mcp_server_sha256": "4d7d0e05afd515f630bac48ad552ca222568f94221af2a2d3f849f3aa1da27cc",
+  "source_git_commit": "bc63dcb5f5c6b2c4c106d8b8721ff434746fd889",
+  "isolation": {
+    "fresh_thread_per_question": true,
+    "temporary_codex_home": true,
+    "global_codex_config_loaded": false,
+    "sandbox_mode": "read-only",
+    "network_access_enabled": false,
+    "web_search_mode": "disabled",
+    "web_search_enabled": false,
+    "approval_policy": "never",
+    "mcp_server_allowlist": [
+      "iris"
+    ],
+    "working_directory": "empty_cleanroom",
+    "tool_use_policy": "Only the read-only Iris CLI tools defined by the frozen iris-macro-data skill are allowed.",
+    "nonfatal_runtime_error_allowlist": [
+      "Falling back from WebSockets to HTTPS transport. request timed out"
+    ],
+    "nonfatal_runtime_error_prefixes": [
+      "Falling back from WebSockets to HTTPS transport."
+    ]
+  },
+  "tool_contract": {
+    "required_per_question": [
+      "iris_helper",
+      "iris_macro_semantic_tool"
+    ],
+    "web_search_allowed": false,
+    "shell_allowed": false,
+    "raw_provider_tools_exposed": false,
+    "credentials_visible_to_model": false,
+    "unsupported_policy": "Return the Iris semantic limitation or clarification; do not bypass the ontology with model memory or raw FRED access."
+  },
+  "execution_schedule": "four_isolated_workers_after_initial_sequential_cases",
+  "rerun_case_ids": [
+    "fred_sem_0006",
+    "fred_sem_0157",
+    "fred_sem_0159",
+    "fred_sem_0162"
+  ],
+  "rerun_policy": "Only failed or tool-contract-violating first attempts were replaced; case IDs are disclosed.",
+  "completed_count": 48,
+  "success_count": 47,
+  "tool_contract_violation_count": 1,
+  "error_count": 0,
+  "iris_cli_call_count": 230
+}

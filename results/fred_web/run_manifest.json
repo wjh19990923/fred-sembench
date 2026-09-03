@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "fred-sembench-v1-iris-related-48-llm-fred-web-codex-subscription",
+  "configuration": "gpt-5.6-sol_llm-fred-api-live-web_subscription",
+  "output_subdir": "output",
+  "started_at": "2026-07-31T09:02:28.336Z",
+  "completed_at": "2026-07-31T09:40:37.996Z",
+  "status": "completed",
+  "model": "gpt-5.6-sol",
+  "model_reasoning_effort": "medium",
+  "sdk": {
+    "name": "@openai/codex-sdk",
+    "version": "0.146.0",
+    "authentication": "chatgpt_subscription"
+  },
+  "fred_tool_runtime": {
+    "protocol": "MCP stdio",
+    "sdk": "@modelcontextprotocol/sdk",
+    "version": "1.24.0",
+    "deployment_scope": "local_experiment_only"
+  },
+  "question_count": 48,
+  "completed_count_at_start": 16,
+  "resume_count": 1,
+  "config_sha256": "75536ceca35080bc6e89fa957141183f39ba3e0f2925c84f20e2f5e52277f1a8",
+  "questions_blind_sha256": "4177c5ef25676e9252d4f4f525057eb6b9b824b098ce879a5781fc3ec5b25a6b",
+  "model_instructions_sha256": "b2cdce8f8009fd09a8df0612a9d59641206f58bccb0fdee77510c47e56f783c2",
+  "fred_mcp_server_sha256": "1f0dda449a13cb9b8fa77f46aa32c99c22c0d980f1b09f974e83c29f9fa9124d",
+  "source_git_commit": "776fc3275f175934ec458570428b49075281b57b",
+  "isolation": {
+    "fresh_thread_per_question": true,
+    "temporary_codex_home": true,
+    "global_codex_config_loaded": false,
+    "sandbox_mode": "read-only",
+    "network_access_enabled": true,
+    "web_search_mode": "live",
+    "web_search_enabled": true,
+    "approval_policy": "never",
+    "mcp_enabled": true,
+    "mcp_server_allowlist": [
+      "fred"
+    ],
+    "working_directory": "empty_cleanroom",
+    "tool_use_policy": "Only live Web Search and the four read-only tools from the fred MCP server are allowed."
+  },
+  "tool_contract": {
+    "required_per_question": [
+      "fred_api",
+      "live_web_search"
+    ],
+    "fred_api_origin": "https://api.stlouisfed.org",
+    "fred_http_methods": [
+      "GET"
+    ],
+    "fred_api_key_visible_to_model": false,
+    "direct_shell_network_allowed": false
+  },
+  "completed_count": 48,
+  "success_count": 48,
+  "tool_contract_violation_count": 0,
+  "error_count": 0,
+  "web_search_count": 55,
+  "fred_api_call_count": 94
+}

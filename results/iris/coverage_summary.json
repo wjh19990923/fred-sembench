@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "scope_definition": "Pre-registered Iris preflight mapping; computed before this condition was run.",
+  "overall": {
+    "cases": 48,
+    "strict_correct": 25,
+    "numeric_cases": 44,
+    "numeric_correct": 21,
+    "clarification_cases": 4,
+    "clarification_correct": 4,
+    "safe_abstentions": 5
+  },
+  "supported": {
+    "cases": 22,
+    "strict_correct": 17,
+    "numeric_cases": 18,
+    "numeric_correct": 13,
+    "clarification_cases": 4,
+    "clarification_correct": 4,
+    "safe_abstentions": 0
+  },
+  "excluded": {
+    "cases": 26,
+    "strict_correct": 8,
+    "numeric_cases": 26,
+    "numeric_correct": 8,
+    "clarification_cases": 0,
+    "clarification_correct": 0,
+    "safe_abstentions": 5
+  }
+}

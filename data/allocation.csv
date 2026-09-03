@@ -1,0 +1,51 @@
+concept_id,series_id,concept_name,direct_retrieval,concept_series_disambiguation,transform_unit,point_in_time_vintage,cross_series_reasoning,ambiguous_unsupported,total
+FRED-C001,CPIAUCSL,Headline Consumer Price Index,0,1,1,1,1,0,4
+FRED-C002,CPILFESL,Core Consumer Price Index,1,0,1,1,1,0,4
+FRED-C003,PCEPI,PCE Price Index,1,1,0,1,1,0,4
+FRED-C004,PCEPILFE,Core PCE Price Index,1,1,1,0,1,0,4
+FRED-C005,PPIFIS,Producer Price Index: Final Demand,0,1,1,1,1,0,4
+FRED-C006,GDPDEF,GDP Implicit Price Deflator,1,0,1,1,1,0,4
+FRED-C007,CUSR0000SAH1,CPI: Shelter,1,1,0,1,1,0,4
+FRED-C008,UNRATE,Unemployment Rate,1,1,1,0,1,0,4
+FRED-C009,PAYEMS,Total Nonfarm Payroll Employment,0,1,1,1,1,0,4
+FRED-C010,ICSA,Initial Unemployment Claims,1,0,1,1,1,0,4
+FRED-C011,CIVPART,Labor Force Participation Rate,1,1,0,1,1,0,4
+FRED-C012,EMRATIO,Employment-Population Ratio,1,1,1,0,1,0,4
+FRED-C013,CES0500000003,Average Hourly Earnings: Total Private,0,1,1,1,1,0,4
+FRED-C014,JTSJOL,Job Openings: Total Nonfarm,1,0,1,1,1,0,4
+FRED-C015,GDPC1,Real Gross Domestic Product,1,1,0,1,1,0,4
+FRED-C016,INDPRO,Industrial Production Index,1,1,1,0,1,0,4
+FRED-C017,RPI,Real Personal Income,0,1,1,1,1,0,4
+FRED-C018,PI,Personal Income,1,0,1,1,1,0,4
+FRED-C019,OPHNFB,Nonfarm Business Labor Productivity,1,1,0,1,1,0,4
+FRED-C020,TCU,Total Capacity Utilization,1,1,1,0,1,0,4
+FRED-C021,DFF,Effective Federal Funds Rate,1,1,1,1,0,0,4
+FRED-C022,DGS3MO,3-Month Treasury Yield,1,1,1,1,0,0,4
+FRED-C023,DGS2,2-Year Treasury Yield,1,1,1,1,0,0,4
+FRED-C024,DGS10,10-Year Treasury Yield,1,1,1,1,0,0,4
+FRED-C025,T10Y2Y,10-Year Minus 2-Year Treasury Spread,1,1,1,1,0,0,4
+FRED-C026,M2SL,M2 Money Stock,1,1,1,1,0,0,4
+FRED-C027,BOGMBASE,Monetary Base,1,1,1,1,0,0,4
+FRED-C028,DPRIME,Bank Prime Loan Rate,1,1,1,1,0,0,4
+FRED-C029,BUSLOANS,Commercial and Industrial Loans,1,1,1,1,0,0,4
+FRED-C030,CONSUMER,Consumer Loans at Commercial Banks,1,1,1,1,0,0,4
+FRED-C031,DRCCLACBS,Credit Card Delinquency Rate,0,1,1,1,0,1,4
+FRED-C032,TOTALSL,Total Consumer Credit Outstanding,1,0,1,1,0,1,4
+FRED-C033,NFCI,National Financial Conditions Index,1,1,0,1,0,1,4
+FRED-C034,HOUST,Housing Starts,1,1,1,0,0,1,4
+FRED-C035,PERMIT,Building Permits,0,1,1,1,0,1,4
+FRED-C036,HSN1F,New Single-Family Home Sales,1,0,1,1,0,1,4
+FRED-C037,USSTHPI,FHFA U.S. House Price Index,1,1,0,1,0,1,4
+FRED-C038,MORTGAGE30US,30-Year Fixed Mortgage Rate,1,1,1,0,0,1,4
+FRED-C039,PCEC96,Real Personal Consumption Expenditures,0,1,1,1,0,1,4
+FRED-C040,RSAFS,Advance Retail Sales,1,0,1,1,0,1,4
+FRED-C041,DGORDER,Durable Goods New Orders,1,1,0,1,0,1,4
+FRED-C042,AMTMNO,Total Manufacturing New Orders,1,1,1,0,0,1,4
+FRED-C043,BUSINV,Total Business Inventories,0,1,1,1,0,1,4
+FRED-C044,EXPGS,Exports of Goods and Services,1,0,1,1,0,1,4
+FRED-C045,IMPGS,Imports of Goods and Services,1,1,0,1,0,1,4
+FRED-C046,BOPGSTB,Goods and Services Trade Balance,1,1,1,0,0,1,4
+FRED-C047,DTWEXBGS,Nominal Broad U.S. Dollar Index,0,1,1,1,0,1,4
+FRED-C048,GFDEBTN,Total Public Federal Debt,1,0,1,1,0,1,4
+FRED-C049,FYFSD,Federal Surplus or Deficit,1,1,0,1,0,1,4
+FRED-C050,FGRECPT,Federal Government Current Receipts,1,1,1,0,0,1,4

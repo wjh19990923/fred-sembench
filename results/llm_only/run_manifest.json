@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "fred-sembench-v1-iris-related-48-llm-only-codex-subscription",
+  "configuration": "gpt-5.6-sol_llm-only_subscription",
+  "started_at": "2026-07-31T05:10:40.049Z",
+  "completed_at": "2026-07-31T05:28:50.316Z",
+  "status": "completed",
+  "model": "gpt-5.6-sol",
+  "model_reasoning_effort": "medium",
+  "sdk": {
+    "name": "@openai/codex-sdk",
+    "version": "0.146.0",
+    "authentication": "chatgpt_subscription"
+  },
+  "question_count": 48,
+  "completed_count_at_start": 0,
+  "config_sha256": "1b9a541c14a2b25392189ccdcda3b33b9d6ca82627f717ff05bdd811ff231746",
+  "questions_blind_sha256": "4177c5ef25676e9252d4f4f525057eb6b9b824b098ce879a5781fc3ec5b25a6b",
+  "model_instructions_sha256": "63f600390677a33112802ee42fd13e2e63b6d4c19354e76e494f226ccff6e242",
+  "source_git_commit": "645d5c44fa6b84bf92aeefd4fe5ad90152655ca3",
+  "isolation": {
+    "fresh_thread_per_question": true,
+    "temporary_codex_home": true,
+    "global_codex_config_loaded": false,
+    "sandbox_mode": "read-only",
+    "network_access_enabled": false,
+    "web_search_mode": "disabled",
+    "web_search_enabled": false,
+    "approval_policy": "never",
+    "mcp_enabled": false,
+    "working_directory": "empty_cleanroom",
+    "tool_use_policy": "Any non-reasoning, non-agent-message item is an isolation violation."
+  },
+  "completed_count": 48,
+  "success_count": 48,
+  "isolation_violation_count": 0,
+  "error_count": 0
+}
