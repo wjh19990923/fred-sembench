@@ -59,8 +59,8 @@ Expected headline results:
   source snapshots; the raw snapshot bodies are not included.
 - `questions_review.csv`: flat review view of all questions.
 
-The canonical structured dataset is also published on the Hugging Face Hub.
-The Hugging Face link will be added after repository initialization.
+The canonical structured dataset is published on the Hugging Face Hub:
+<https://huggingface.co/datasets/wangjinh/FRED-SemBench>.
 
 ## Iris boundary
 
