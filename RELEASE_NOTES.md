@@ -26,8 +26,10 @@ Macroeconomic Data*.
 
 The structured dataset is also available through the Hugging Face Dataset
 Viewer at <https://huggingface.co/datasets/wangjinh/FRED-SemBench>. Paper
-metadata and citation guidance are in [`PAPER.md`](PAPER.md) and
-[`CITATION.cff`](CITATION.cff).
+metadata and citation guidance are in
+[`PAPER.md`](https://github.com/wjh19990923/fred-sembench/blob/v1.0.0-paper/PAPER.md)
+and
+[`CITATION.cff`](https://github.com/wjh19990923/fred-sembench/blob/v1.0.0-paper/CITATION.cff).
 
 ## Verification
 
@@ -48,7 +50,9 @@ Raw FRED CSV snapshots are not redistributed. The original provider terms apply
 to each source series. The release does not include the proprietary Iris
 production implementation, credentials, authentication material, original tool
 result bodies, hidden chain-of-thought, or commercial-service access. See
-[`DATA_LICENSE.md`](DATA_LICENSE.md) and [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md).
+[`DATA_LICENSE.md`](https://github.com/wjh19990923/fred-sembench/blob/v1.0.0-paper/DATA_LICENSE.md)
+and
+[`docs/LIMITATIONS.md`](https://github.com/wjh19990923/fred-sembench/blob/v1.0.0-paper/docs/LIMITATIONS.md).
 
 Zenodo and DOI registration are intentionally deferred and are not part of this
 release.

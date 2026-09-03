@@ -263,8 +263,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "a51316025563b244c01863fdbc85a0d0fb51c2c68f41c7db79dd996c4b0382e3",
-      "size_bytes": 2095,
+      "sha256": "4cf15a4cf89e3ce6cc077f63c81790ad32a5d0f2362ad1caa8edd352eb4828a9",
+      "size_bytes": 2347,
       "purpose": "release metadata and entry-point documentation"
     },
     {
