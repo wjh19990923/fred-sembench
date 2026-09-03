@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "release": "v1.0.0-paper",
-  "file_count": 61,
+  "file_count": 62,
   "files": [
     {
       "path": ".gitignore",
@@ -260,6 +260,12 @@
       "sha256": "2455d56329f1eff0b591ae0e1093e226653006e0bd291c2e44081c37b3080e9b",
       "size_bytes": 9400,
       "purpose": "frozen experiment scoring programs"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "a51316025563b244c01863fdbc85a0d0fb51c2c68f41c7db79dd996c4b0382e3",
+      "size_bytes": 2095,
+      "purpose": "release metadata and entry-point documentation"
     },
     {
       "path": "results/fred_web/deterministic_scores.jsonl",
