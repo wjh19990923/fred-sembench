@@ -3,9 +3,11 @@ from __future__ import annotations
 import csv
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
+from fred_sembench.cli import resolve_artifact_root
 from fred_sembench.manifest import build_release_manifest
 from scripts.release_checks import compute_paper_results, validate_release
 
@@ -46,6 +48,24 @@ class ReleaseChecksTest(unittest.TestCase):
 
         self.assertEqual(actual, expected)
 
+    # Verify that local wheel-build outputs never enter the release manifest.
+    def test_release_manifest_excludes_build_outputs(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "included.txt").write_text("release", encoding="utf-8")
+            (root / "build").mkdir()
+            (root / "build" / "wheel.txt").write_text("build", encoding="utf-8")
+            (root / "fred_sembench.egg-info").mkdir()
+            (root / "fred_sembench.egg-info" / "PKG-INFO").write_text(
+                "metadata", encoding="utf-8"
+            )
+
+            manifest = build_release_manifest(root)
+
+        self.assertIn("included.txt", manifest)
+        self.assertNotIn("wheel.txt", manifest)
+        self.assertNotIn("PKG-INFO", manifest)
+
     # Verify that the public module exposes the documented validation command.
     def test_cli_validate(self) -> None:
         result = subprocess.run(
@@ -58,6 +78,12 @@ class ReleaseChecksTest(unittest.TestCase):
 
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn('"status": "PASS"', result.stdout)
+
+    # Verify that an installed CLI uses the checked-out artifact in its cwd.
+    def test_cli_resolves_checkout_root(self) -> None:
+        installed_module = Path("C:/venv/site-packages/fred_sembench/cli.py")
+
+        self.assertEqual(resolve_artifact_root(ROOT, installed_module), ROOT)
 
     # Verify that publication documentation covers evidence and limitations.
     def test_release_documentation(self) -> None:

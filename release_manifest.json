@@ -125,8 +125,8 @@
     },
     {
       "path": "fred_sembench/cli.py",
-      "sha256": "628721820a36f96c78ca9d1da64e8ef8c693e9d668c2badf6bc4c5fad2c6f2da",
-      "size_bytes": 3791,
+      "sha256": "339a1e0869fe1c41b4bdd64a98b2c6f50b0cf593d9a653a7dd5d3a4e118082af",
+      "size_bytes": 4504,
       "purpose": "public command-line implementation"
     },
     {
@@ -137,8 +137,8 @@
     },
     {
       "path": "fred_sembench/manifest.py",
-      "sha256": "df76c7034a513f52b8b7f93b10b76f4ee837acf3cc194769f03a8daa32ea320d",
-      "size_bytes": 2308,
+      "sha256": "002ecbbe587a999e809a2acb2f3c25bce30f5925b04516eb7aae35d0f95db20f",
+      "size_bytes": 2388,
       "purpose": "public command-line implementation"
     },
     {
@@ -371,8 +371,8 @@
     },
     {
       "path": "tests/test_release.py",
-      "sha256": "6648f26420f36824e988045653ed2af0521b7ddd1761f1e54998c1000bc84616",
-      "size_bytes": 3677,
+      "sha256": "8f6e23f74ecb2cb8042d95876299e3e00ba2bf8e64674fc4e505e9921bb3cb41",
+      "size_bytes": 4849,
       "purpose": "release verification tests"
     }
   ]

@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 
-EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache"}
+EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache", "build"}
 EXCLUDED_FILES = {"release_manifest.json"}
 PURPOSES = {
     "data": "benchmark data and source provenance",
@@ -44,6 +44,7 @@ def _release_files(root: Path) -> list[Path]:
         for path in root.rglob("*")
         if path.is_file()
         and not EXCLUDED_PARTS.intersection(path.parts)
+        and not any(part.endswith(".egg-info") for part in path.parts)
         and path.name not in EXCLUDED_FILES
         and path.suffix != ".pyc"
     )

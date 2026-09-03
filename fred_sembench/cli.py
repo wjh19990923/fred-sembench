@@ -10,9 +10,24 @@ from fred_sembench.provenance import build_source_provenance
 from scripts.release_checks import compute_paper_results, validate_release
 
 
-ROOT = Path(__file__).resolve().parents[1]
-MANIFEST_PATH = ROOT / "release_manifest.json"
-PROVENANCE_PATH = ROOT / "data" / "source_provenance.csv"
+ARTIFACT_MARKERS = ("release_manifest.json", "data")
+
+
+# Resolve the checkout that contains the benchmark artifacts.
+def resolve_artifact_root(cwd: Path, module_path: Path) -> Path:
+    candidates = (cwd.resolve(), module_path.resolve().parents[1])
+    for candidate in candidates:
+        if all((candidate / marker).exists() for marker in ARTIFACT_MARKERS):
+            return candidate
+    raise FileNotFoundError(
+        "FRED-SemBench artifacts were not found. Run this command from the "
+        "root of a fred-sembench checkout."
+    )
+
+
+# Locate the artifact checkout for the current command.
+def _root() -> Path:
+    return resolve_artifact_root(Path.cwd(), Path(__file__))
 
 
 # Print one JSON payload to standard output.
@@ -22,21 +37,22 @@ def _print_json(payload: object) -> None:
 
 # Validate the complete public artifact and print its inventory.
 def _validate() -> int:
-    _print_json({"status": "PASS", **validate_release(ROOT)})
+    _print_json({"status": "PASS", **validate_release(_root())})
     return 0
 
 
 # Recompute the paper result tables from deterministic score records.
 def _reproduce() -> int:
-    _print_json(compute_paper_results(ROOT))
+    _print_json(compute_paper_results(_root()))
     return 0
 
 
 # Validate metadata-only snapshot hashes without claiming raw-body verification.
 def _verify_hashes() -> int:
+    root = _root()
     rows = [
         json.loads(line)
-        for line in (ROOT / "data" / "snapshot_manifest.jsonl")
+        for line in (root / "data" / "snapshot_manifest.jsonl")
         .read_text(encoding="utf-8")
         .splitlines()
         if line.strip()
@@ -50,12 +66,14 @@ def _verify_hashes() -> int:
 
 # Write or check the deterministic release manifest.
 def _manifest(write: bool) -> int:
-    expected = build_release_manifest(ROOT)
+    root = _root()
+    manifest_path = root / "release_manifest.json"
+    expected = build_release_manifest(root)
     if write:
-        MANIFEST_PATH.write_text(expected, encoding="utf-8")
-        print(f"Wrote {MANIFEST_PATH.name}")
+        manifest_path.write_text(expected, encoding="utf-8")
+        print(f"Wrote {manifest_path.name}")
         return 0
-    actual = MANIFEST_PATH.read_text(encoding="utf-8")
+    actual = manifest_path.read_text(encoding="utf-8")
     if actual != expected:
         print("release_manifest.json is stale")
         return 1
@@ -65,12 +83,14 @@ def _manifest(write: bool) -> int:
 
 # Write or check the per-series source provenance table.
 def _provenance(write: bool) -> int:
-    expected = build_source_provenance(ROOT)
+    root = _root()
+    provenance_path = root / "data" / "source_provenance.csv"
+    expected = build_source_provenance(root)
     if write:
-        PROVENANCE_PATH.write_text(expected, encoding="utf-8")
-        print(f"Wrote {PROVENANCE_PATH.relative_to(ROOT)}")
+        provenance_path.write_text(expected, encoding="utf-8")
+        print(f"Wrote {provenance_path.relative_to(root)}")
         return 0
-    actual = PROVENANCE_PATH.read_text(encoding="utf-8")
+    actual = provenance_path.read_text(encoding="utf-8")
     if actual != expected:
         print("data/source_provenance.csv is stale")
         return 1
