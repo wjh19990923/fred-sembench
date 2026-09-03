@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fred-sembench"
+version = "1.0.0"
+description = "Validation and reproduction tools for FRED-SemBench"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [
+  {name = "Wilson Wang"},
+  {name = "Chandler Han"},
+  {name = "Peter Zhang", email = "founders@kairos-ai.io"}
+]
+dependencies = []
+
+[project.scripts]
+fred-sembench = "fred_sembench.cli:main"
+
+[tool.setuptools]
+packages = ["fred_sembench", "scripts"]

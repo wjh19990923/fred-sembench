@@ -1,0 +1,6 @@
+{
+  "fred": {
+    "observations_endpoint": "https://api.stlouisfed.org/fred/series/observations",
+    "api_key_environment_variable": "FRED_API_KEY"
+  }
+}

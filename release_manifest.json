@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0.0",
+  "release": "v1.0.0-paper",
+  "file_count": 60,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "3d30df0d2a080f4db970296326743407e5e31d6f47917a9a72f9e4752ffb7546",
+      "size_bytes": 98,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "fe90988a5b1f644bc2e6cf1c7c347b43f99e31d58c91300de963a5dd85eae17a",
+      "size_bytes": 1087,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "config/providers.json",
+      "sha256": "76baadb6f7e458cd94ff1eb877e8ed2aa514b083174cac9ca72e4fad459bf628",
+      "size_bytes": 155,
+      "purpose": "release metadata"
+    },
+    {
+      "path": "data/allocation.csv",
+      "sha256": "bee39a9dfe14e8eb27ef119d866d7c92e45b888f2d0b8be40c5780291a37dc8d",
+      "size_bytes": 3138,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/concepts.json",
+      "sha256": "f207fce1757dfccae649531743ebc25342d1b3d606c0d3ddef2f5a66c2650a0d",
+      "size_bytes": 24068,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/DATA_DICTIONARY.md",
+      "sha256": "31500061b17f8b6dd84dfc2a6db1616bf0105705e9d3ad79bd3a3c033d33c80f",
+      "size_bytes": 2412,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/facts.jsonl",
+      "sha256": "6d4bf91914ff0086b523c8597e8dc6f4b616bad1e405f13a663ecc43c8bc8e9a",
+      "size_bytes": 117291,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/questions.jsonl",
+      "sha256": "703736e5b76a9e0fa20025a916150c85b828a7545de01dab6cec8e8896a69505",
+      "size_bytes": 258778,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/questions_review.csv",
+      "sha256": "4b15ac754b853dc59aaa742b0c9df0574087718af993d6bc18da517c74610172",
+      "size_bytes": 65752,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/snapshot_manifest.jsonl",
+      "sha256": "55cb6d8c7f3700fb6994dd3629fd5b659b385d28e86a3016a225483d9c4cd8b8",
+      "size_bytes": 17542,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "data/source_provenance.csv",
+      "sha256": "df0e67d46a5b9eb4b9ba9cfd5e5a3e8eab471256fce10b1b32bf226f5e4d7f64",
+      "size_bytes": 8299,
+      "purpose": "benchmark data and source provenance"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "sha256": "36a3e9cc1f5cd07774a05e31896983aaaa9fbc869a30d027027f34b1fa1c55f2",
+      "size_bytes": 1449,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "docs/ANNOTATION_GUIDELINES.md",
+      "sha256": "910df36d923e143a3c308a733815896c406d09da964b21f62289aea7a9de7eb5",
+      "size_bytes": 1999,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "docs/EVALUATION_PROTOCOL.md",
+      "sha256": "2963d536c83c80893fddfe88a6ba15943cae4ffbbe5d1d2a6eeafca3f84efba3",
+      "size_bytes": 886,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "docs/IRIS_INTERFACE.md",
+      "sha256": "ede1788886359edeb7d4e53912b7abe74fdbf054cca00d9ffe92bfe14104b8ac",
+      "size_bytes": 698,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "6facbdca186a0bcd70186c6981830e821d91649d8ffa29104f96f33fb85bf8de",
+      "size_bytes": 807,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "docs/QA_REPORT.md",
+      "sha256": "73c62513ecec0a2db255690faadefb2fae9479bc7b4d05780a70d11aceba69df",
+      "size_bytes": 1659,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY_MATRIX.md",
+      "sha256": "e0ec293368d252e3d0ff0ffc9e290968a9a1a88dc4ab4d89a540ff3300df7849",
+      "size_bytes": 1234,
+      "purpose": "evaluation and reproducibility documentation"
+    },
+    {
+      "path": "fred_sembench/__init__.py",
+      "sha256": "6bea02bb88b3fad0809e7b29e2001e6906930da2127a6295aec8db35e57035cc",
+      "size_bytes": 97,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "fred_sembench/__main__.py",
+      "sha256": "ef49210a8622eac2f3c0a2a9a2ce9cf02db99ea2816bcd41e3c5d2c487444f87",
+      "size_bytes": 93,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "fred_sembench/cli.py",
+      "sha256": "628721820a36f96c78ca9d1da64e8ef8c693e9d668c2badf6bc4c5fad2c6f2da",
+      "size_bytes": 3791,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "fred_sembench/fred.py",
+      "sha256": "1c6cf1b59dcac8dad6f8f1cbc497475bc7cf8d327faf51711a1d94db16f27e68",
+      "size_bytes": 1077,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "fred_sembench/manifest.py",
+      "sha256": "df76c7034a513f52b8b7f93b10b76f4ee837acf3cc194769f03a8daa32ea320d",
+      "size_bytes": 2308,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "fred_sembench/provenance.py",
+      "sha256": "55790c3fc2084b9459419ad0cc1cec20ddc20d9addf2b7d632b139ae085cde49",
+      "size_bytes": 1421,
+      "purpose": "public command-line implementation"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "size_bytes": 11558,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "preflight/iris_coverage_manifest.csv",
+      "sha256": "4b6ac58297c3a8f9e194b10292f5b856e61a5e9e559a25db10dca9e206b212c9",
+      "size_bytes": 61327,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/iris_excluded_questions.csv",
+      "sha256": "c57dac61508933683019a2567594413e5bdb2afe5780cfb16df1a12bf019acb0",
+      "size_bytes": 53235,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/iris_execution_preflight.json",
+      "sha256": "7e2a8d54ba3b836dee13884303fd150c521160e9d3221f9c059a9c3040a9ae37",
+      "size_bytes": 8607,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/IRIS_EXECUTION_PREFLIGHT.md",
+      "sha256": "0777b45a067d6184f35105ff82e6160ce91d6075b3cb0349f26057ac50350e5d",
+      "size_bytes": 778,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/iris_partial_questions.jsonl",
+      "sha256": "115b94727983efaf96751fcd9a7c75133c1df80a2923e52336f8f8e7bd1689d4",
+      "size_bytes": 3680,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/IRIS_PREFLIGHT_REPORT.md",
+      "sha256": "39390f5c343336ffafbc459dfda45ef8c2f9b872b112a2ccc1ff677482826712",
+      "size_bytes": 2400,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "preflight/iris_supported_questions.jsonl",
+      "sha256": "b579ef3ba6b72321f87ee7c92bd7920049dd0a1ab11331a7602d52afbfc7e411",
+      "size_bytes": 28430,
+      "purpose": "pre-registered Iris coverage decisions"
+    },
+    {
+      "path": "prompts/fred_web.txt",
+      "sha256": "b2cdce8f8009fd09a8df0612a9d59641206f58bccb0fdee77510c47e56f783c2",
+      "size_bytes": 1111,
+      "purpose": "experiment instructions"
+    },
+    {
+      "path": "prompts/iris.txt",
+      "sha256": "3c6c5b4d268562b2d9df2444755ee43274e90a06826e93808b07b2ed1fa21d01",
+      "size_bytes": 12288,
+      "purpose": "experiment instructions"
+    },
+    {
+      "path": "prompts/judge.txt",
+      "sha256": "4b4bff0749d6da3c7fbbd2695bb5f2fb8daa696962a4b9b504b3f9d958691a3c",
+      "size_bytes": 648,
+      "purpose": "experiment instructions"
+    },
+    {
+      "path": "prompts/llm_only.txt",
+      "sha256": "63f600390677a33112802ee42fd13e2e63b6d4c19354e76e494f226ccff6e242",
+      "size_bytes": 324,
+      "purpose": "experiment instructions"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "c98db587721ebe5341ac19ebf7827b7c569f6ecb3e1ef641b04e895dd76b9865",
+      "size_bytes": 538,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "README.md",
+      "sha256": "84f9f93084a86d49e852ac7312d64c896047253f14e03e486455629031b1b183",
+      "size_bytes": 5214,
+      "purpose": "release metadata and entry-point documentation"
+    },
+    {
+      "path": "reference_scoring/fred_web/score_deterministic.mjs",
+      "sha256": "dd9f1a3a2218dca4d939e8492a14376882d42f1fcb9160153d136fd7f3a04ed1",
+      "size_bytes": 221,
+      "purpose": "frozen experiment scoring programs"
+    },
+    {
+      "path": "reference_scoring/iris/score_coverage.mjs",
+      "sha256": "b4cd8a3a7b31f84696d5d3bbb6f43c72bf6e77b4493d93b3b09f4fa188971b19",
+      "size_bytes": 2675,
+      "purpose": "frozen experiment scoring programs"
+    },
+    {
+      "path": "reference_scoring/iris/score_deterministic.mjs",
+      "sha256": "71735527246f35b30c7c0da4a253873b71b36ec3cf5ec94ac315bc9b37a1c7ec",
+      "size_bytes": 220,
+      "purpose": "frozen experiment scoring programs"
+    },
+    {
+      "path": "reference_scoring/llm_only/score_deterministic.mjs",
+      "sha256": "2455d56329f1eff0b591ae0e1093e226653006e0bd291c2e44081c37b3080e9b",
+      "size_bytes": 9400,
+      "purpose": "frozen experiment scoring programs"
+    },
+    {
+      "path": "results/fred_web/deterministic_scores.jsonl",
+      "sha256": "43b289519877b14b0b6fcabaab783302efd3072c91f48666b1360e3423eee9f5",
+      "size_bytes": 26115,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/fred_web/responses.jsonl",
+      "sha256": "68311dafadd577d1d86f50cdc8869fd3c050b3b2dc87f8c1fc0ddd87127303fc",
+      "size_bytes": 66814,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/fred_web/run_manifest.json",
+      "sha256": "8ac5515d1e32af83a37e1b25ceade56ed7268ffb82d0445cc587a6315138e1e0",
+      "size_bytes": 2196,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/fred_web/tool_traces.jsonl",
+      "sha256": "99b2aa13c7a082c0d5311cea149af143993c0e923840683dcf45090d910a689e",
+      "size_bytes": 59994,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/coverage_scores.jsonl",
+      "sha256": "92b709ad863414643e169edd149667459ea1d8058d77178767e09367f72fdfe3",
+      "size_bytes": 8808,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/coverage_summary.json",
+      "sha256": "f83855744156c9b79d8ddd4b024833d1eec566f422e79eb2426d1596c7651a20",
+      "size_bytes": 746,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/deterministic_scores.jsonl",
+      "sha256": "22e4ec938b000322c1432c7f1a11088eac3cfc48886c1a86a66bebef954409a0",
+      "size_bytes": 24387,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/responses.jsonl",
+      "sha256": "650cc90fb984c30c0ff8ef75d8ea8a67d2486486f5524a9b9e4066006b913ec4",
+      "size_bytes": 59366,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/run_manifest.json",
+      "sha256": "0176191b94415b4ad6f3291c29cf0080b47c94d66de269c3ef26e858ff6329b3",
+      "size_bytes": 2899,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/iris/tool_traces.jsonl",
+      "sha256": "4774fb093393aab61c5b854d12c20b89b9e4a806adb254262ae1a8e7e2c280e0",
+      "size_bytes": 125347,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/llm_only/deterministic_scores.jsonl",
+      "sha256": "5f5a52302062b0bf2902f006de09020c821e233581aa12977d7ffcc4dc0b928c",
+      "size_bytes": 23064,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/llm_only/responses.jsonl",
+      "sha256": "097524f44a9c19fee6e691da9ab5bdc77b4c519eae78cc5c03bb84c9b1cf3941",
+      "size_bytes": 35756,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/llm_only/run_manifest.json",
+      "sha256": "dbaea3b7e34a69a39a9b8db1c2b9ed464873ea466ab49156ed707efb3958d2f5",
+      "size_bytes": 1448,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "results/llm_only/tool_traces.jsonl",
+      "sha256": "c22872f78e0d1860921530998236e1f3fb2adb7bac2ac2ec4500ff33fb87afcc",
+      "size_bytes": 7094,
+      "purpose": "recorded responses, scores, traces, and run metadata"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sha256": "b6cb6ee89c88e8f7f69babaedb1a54e50b018b153a5553979d58c57f7fc9d316",
+      "size_bytes": 70,
+      "purpose": "standalone validation and reproduction entry points"
+    },
+    {
+      "path": "scripts/release_checks.py",
+      "sha256": "c56ca7d60dd0a4cd68489f25ed74c16fadf76cf0ed530a60f7c134f4793508d7",
+      "size_bytes": 4218,
+      "purpose": "standalone validation and reproduction entry points"
+    },
+    {
+      "path": "scripts/reproduce_paper.py",
+      "sha256": "9b0fdb245cc03d1d0d1b33dd2c355ec42a6ffa649cb69b631d744d1cccc1866c",
+      "size_bytes": 398,
+      "purpose": "standalone validation and reproduction entry points"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "4a0ce5c0d0e3fd017c0dda25532841858ffe9a9ab8788dc1ab9f42e6e45247c6",
+      "size_bytes": 3111,
+      "purpose": "release verification tests"
+    }
+  ]
+}

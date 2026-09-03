@@ -34,12 +34,20 @@ and SHA-256 hashes for auditability. See [DATA_LICENSE.md](DATA_LICENSE.md).
 ## Quick verification
 
 Python 3.10 or newer is sufficient; validation has no third-party dependencies.
+The package can be installed locally or run directly from the repository.
 
 ```bash
-python scripts/release_checks.py
-python scripts/reproduce_paper.py
-python -m unittest discover -s tests -v
+python -m pip install .
+fred-sembench validate
+fred-sembench verify-hashes
+fred-sembench reproduce-paper
+fred-sembench manifest
 ```
+
+The original standalone entry points remain available under `scripts/`. Current
+FRED observations can optionally be fetched with `fred-sembench fetch-fred
+SERIES_ID` after setting `FRED_API_KEY`; live retrieval does not reconstruct the
+paper's historical byte-frozen responses.
 
 Expected headline results:
 
@@ -61,6 +69,12 @@ Expected headline results:
 
 The canonical structured dataset is published on the Hugging Face Hub:
 <https://huggingface.co/datasets/wangjinh/FRED-SemBench>.
+
+Evaluation details, system boundaries, and claim-level evidence are documented
+in [`docs/EVALUATION_PROTOCOL.md`](docs/EVALUATION_PROTOCOL.md),
+[`docs/IRIS_INTERFACE.md`](docs/IRIS_INTERFACE.md),
+[`docs/LIMITATIONS.md`](docs/LIMITATIONS.md), and
+[`docs/REPRODUCIBILITY_MATRIX.md`](docs/REPRODUCIBILITY_MATRIX.md).
 
 ## Iris boundary
 
@@ -91,8 +105,9 @@ and the terms of each original data provider:
 
 ## Citation
 
-Citation metadata is available in [`CITATION.cff`](CITATION.cff). A version DOI
-will be added after the paper release is archived.
+Citation metadata is available in [`CITATION.cff`](CITATION.cff). The immutable
+paper-aligned release is identified by the `v1.0.0-paper` tag. A DOI may be
+added later without changing the released benchmark contents.
 
 ## Licenses
 

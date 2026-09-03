@@ -1,0 +1,51 @@
+series_id,original_source,series_url,retrieved_on,publication_form,rights_status
+AMTMNO,U.S. Census Bureau,https://fred.stlouisfed.org/series/AMTMNO,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+BOGMBASE,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/BOGMBASE,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+BOPGSTB,U.S. Bureau of Economic Analysis and U.S. Census Bureau,https://fred.stlouisfed.org/series/BOPGSTB,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+BUSINV,U.S. Census Bureau,https://fred.stlouisfed.org/series/BUSINV,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+BUSLOANS,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/BUSLOANS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CES0500000003,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/CES0500000003,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CIVPART,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/CIVPART,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CONSUMER,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/CONSUMER,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CPIAUCSL,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/CPIAUCSL,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CPILFESL,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/CPILFESL,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+CUSR0000SAH1,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/CUSR0000SAH1,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DFF,Federal Reserve Bank of New York,https://fred.stlouisfed.org/series/DFF,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DGORDER,U.S. Census Bureau,https://fred.stlouisfed.org/series/DGORDER,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DGS10,U.S. Department of the Treasury,https://fred.stlouisfed.org/series/DGS10,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DGS2,U.S. Department of the Treasury,https://fred.stlouisfed.org/series/DGS2,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DGS3MO,U.S. Department of the Treasury,https://fred.stlouisfed.org/series/DGS3MO,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DPRIME,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/DPRIME,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DRCCLACBS,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/DRCCLACBS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+DTWEXBGS,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/DTWEXBGS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+EMRATIO,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/EMRATIO,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+EXPGS,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/EXPGS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+FGRECPT,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/FGRECPT,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+FYFSD,Office of Management and Budget,https://fred.stlouisfed.org/series/FYFSD,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+GDPC1,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/GDPC1,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+GDPDEF,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/GDPDEF,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+GFDEBTN,U.S. Department of the Treasury,https://fred.stlouisfed.org/series/GFDEBTN,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+HOUST,U.S. Census Bureau and U.S. Department of Housing and Urban Development,https://fred.stlouisfed.org/series/HOUST,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+HSN1F,U.S. Census Bureau and U.S. Department of Housing and Urban Development,https://fred.stlouisfed.org/series/HSN1F,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+ICSA,"U.S. Department of Labor, Employment and Training Administration",https://fred.stlouisfed.org/series/ICSA,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+IMPGS,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/IMPGS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+INDPRO,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/INDPRO,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+JTSJOL,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/JTSJOL,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+M2SL,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/M2SL,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+MORTGAGE30US,Freddie Mac,https://fred.stlouisfed.org/series/MORTGAGE30US,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+NFCI,Federal Reserve Bank of Chicago,https://fred.stlouisfed.org/series/NFCI,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+OPHNFB,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/OPHNFB,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PAYEMS,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/PAYEMS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PCEC96,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/PCEC96,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PCEPI,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/PCEPI,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PCEPILFE,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/PCEPILFE,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PERMIT,U.S. Census Bureau and U.S. Department of Housing and Urban Development,https://fred.stlouisfed.org/series/PERMIT,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PI,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/PI,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+PPIFIS,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/PPIFIS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+RPI,U.S. Bureau of Economic Analysis,https://fred.stlouisfed.org/series/RPI,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+RSAFS,U.S. Census Bureau,https://fred.stlouisfed.org/series/RSAFS,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+T10Y2Y,Federal Reserve Bank of St. Louis,https://fred.stlouisfed.org/series/T10Y2Y,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+TCU,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/TCU,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+TOTALSL,Board of Governors of the Federal Reserve System,https://fred.stlouisfed.org/series/TOTALSL,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+UNRATE,U.S. Bureau of Labor Statistics,https://fred.stlouisfed.org/series/UNRATE,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
+USSTHPI,Federal Housing Finance Agency,https://fred.stlouisfed.org/series/USSTHPI,2026-07-29,metadata_and_derived_evidence_only,original_provider_terms_apply
