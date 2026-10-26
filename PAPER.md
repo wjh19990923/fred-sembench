@@ -2,7 +2,9 @@
 
 **Authors:** Wilson Wang, Chandler Han, and Peter Zhang (Kairos-AI)  
 **Corresponding author:** Peter Zhang, founders@kairos-ai.io  
-**Venue:** FinNLP 2026 at EMNLP, accepted short paper
+**Venue:** Proceedings of the 11th Workshop on Financial Technology and Natural Language Processing (FinNLP 2026), pages 237–242
+
+**Published paper:** <https://aclanthology.org/2026.finnlp-1.19/>
 
 ## Abstract
 
@@ -25,8 +27,9 @@ restores clarification behavior.
 - Paper-aligned immutable release:
   <https://github.com/wjh19990923/fred-sembench/releases/tag/v1.0.0-paper>
 
-The ACL Anthology URL will be added after the FinNLP 2026 proceedings are
-published. This page is the stable paper landing page until then.
+The paper is available in [ACL Anthology](https://aclanthology.org/2026.finnlp-1.19/).
+This repository is the code and reproducibility companion; Hugging Face hosts
+the structured dataset and Dataset Viewer.
 
 ## Artifact boundary
 

@@ -1,12 +1,22 @@
-# FRED-SemBench
+# FRED-SemBench: Code and Evaluation for Macroeconomic LLM Reliability
+
+[Paper (ACL Anthology)](https://aclanthology.org/2026.finnlp-1.19/) · [GitHub repository](https://github.com/wjh19990923/fred-sembench) · [Dataset (Hugging Face)](https://huggingface.co/datasets/wangjinh/FRED-SemBench) · [Reproduce results](#quick-verification) · [Citation](#citation)
+
+This is the authors' **FRED-SemBench GitHub repository** for benchmark validation,
+evaluation code, prompts, recorded model responses, and paper-result reproduction.
+FRED stands for **Federal Reserve Economic Data**. The benchmark tests whether
+large language models use the correct economic concept, series, units,
+transformations, and time interpretation—not just retrieve a plausible number.
 
 FRED-SemBench is a 200-question benchmark candidate for evaluating semantic
 reliability in LLM access to macroeconomic data. It accompanies the FinNLP 2026
 paper **“FRED-SemBench: Evaluating Semantic Reliability in LLM Access to
 Macroeconomic Data.”**
 
-Paper metadata, abstract, authors, venue, and the future ACL Anthology link are
-maintained in [`PAPER.md`](PAPER.md). The structured dataset is available on
+The [published paper](https://aclanthology.org/2026.finnlp-1.19/) appears in the
+Proceedings of the 11th Workshop on Financial Technology and Natural Language
+Processing (FinNLP 2026). Paper metadata and the abstract are maintained in
+[`PAPER.md`](PAPER.md). The structured dataset is available on
 [Hugging Face](https://huggingface.co/datasets/wangjinh/FRED-SemBench).
 
 The release separates retrieval from semantic correctness: an answer must use
@@ -41,6 +51,8 @@ Python 3.10 or newer is sufficient; validation has no third-party dependencies.
 The package can be installed locally or run directly from the repository.
 
 ```bash
+git clone https://github.com/wjh19990923/fred-sembench.git
+cd fred-sembench
 python -m pip install .
 fred-sembench validate
 fred-sembench verify-hashes

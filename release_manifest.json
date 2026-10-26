@@ -11,8 +11,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "f8cf95dbefb5e11be5d61946be07d8964b9bdffc638bf88f4d5b66b5832294d1",
-      "size_bytes": 1168,
+      "sha256": "d20f2a5573e0d9b97bf3065d9f07a006df2363683da83faa5e2546e5add35381",
+      "size_bytes": 1139,
       "purpose": "release metadata and entry-point documentation"
     },
     {
@@ -23,14 +23,14 @@
     },
     {
       "path": "data/allocation.csv",
-      "sha256": "bee39a9dfe14e8eb27ef119d866d7c92e45b888f2d0b8be40c5780291a37dc8d",
-      "size_bytes": 3138,
+      "sha256": "7ff9a6ed083072441322f240718e4e6c51fd8f7198e7a5fd9c59ffc529abce4d",
+      "size_bytes": 3087,
       "purpose": "benchmark data and source provenance"
     },
     {
       "path": "data/concepts.json",
-      "sha256": "f207fce1757dfccae649531743ebc25342d1b3d606c0d3ddef2f5a66c2650a0d",
-      "size_bytes": 24068,
+      "sha256": "4d15d73b9911b493173e88e4310bcd63ed4ea0f17d280675d7578d4fac3943e2",
+      "size_bytes": 23412,
       "purpose": "benchmark data and source provenance"
     },
     {
@@ -41,32 +41,32 @@
     },
     {
       "path": "data/facts.jsonl",
-      "sha256": "6d4bf91914ff0086b523c8597e8dc6f4b616bad1e405f13a663ecc43c8bc8e9a",
-      "size_bytes": 117291,
+      "sha256": "e3c16d14297bbf902ae660d4aaa26050d1d3e47cbddb433aef866bc060cff790",
+      "size_bytes": 117191,
       "purpose": "benchmark data and source provenance"
     },
     {
       "path": "data/questions.jsonl",
-      "sha256": "703736e5b76a9e0fa20025a916150c85b828a7545de01dab6cec8e8896a69505",
-      "size_bytes": 258778,
+      "sha256": "350fdd36b5ef226255c973f8713838ef8b58546acfa0798b4b19f47ada24f9b9",
+      "size_bytes": 258578,
       "purpose": "benchmark data and source provenance"
     },
     {
       "path": "data/questions_review.csv",
-      "sha256": "4b15ac754b853dc59aaa742b0c9df0574087718af993d6bc18da517c74610172",
-      "size_bytes": 65752,
+      "sha256": "86f5ac6c13892141ba1892e0eb8af4d6b592635ac13cfe73db2fef1cea4cc604",
+      "size_bytes": 65551,
       "purpose": "benchmark data and source provenance"
     },
     {
       "path": "data/snapshot_manifest.jsonl",
-      "sha256": "55cb6d8c7f3700fb6994dd3629fd5b659b385d28e86a3016a225483d9c4cd8b8",
-      "size_bytes": 17542,
+      "sha256": "2efd9c58887fe8b3915c1478b8dcb4f52245b2e09168280a0c1f7d790f38de6d",
+      "size_bytes": 17492,
       "purpose": "benchmark data and source provenance"
     },
     {
       "path": "data/source_provenance.csv",
-      "sha256": "df0e67d46a5b9eb4b9ba9cfd5e5a3e8eab471256fce10b1b32bf226f5e4d7f64",
-      "size_bytes": 8299,
+      "sha256": "6ad13c6fd593bd652228866f86a434f60d47fe457257eca5b27e2b5aad849b9f",
+      "size_bytes": 8248,
       "purpose": "benchmark data and source provenance"
     },
     {
@@ -101,8 +101,8 @@
     },
     {
       "path": "docs/QA_REPORT.md",
-      "sha256": "73c62513ecec0a2db255690faadefb2fae9479bc7b4d05780a70d11aceba69df",
-      "size_bytes": 1659,
+      "sha256": "95d05e4e1a3043b2d745f5092a8978a13e7b8a884b4d29b787661702673af094",
+      "size_bytes": 1622,
       "purpose": "evaluation and reproducibility documentation"
     },
     {
@@ -149,56 +149,56 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
-      "size_bytes": 11558,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357,
       "purpose": "release metadata and entry-point documentation"
     },
     {
       "path": "PAPER.md",
-      "sha256": "41a9eca68a1abcc012baa4cab499e6040ce3fdcd3527c6d72cd5b4bba5280abf",
-      "size_bytes": 1679,
+      "sha256": "448e15bfe551a8fd4a4d8c199476440a54bb46aa62312faae46d55ef1a73c101",
+      "size_bytes": 1891,
       "purpose": "release metadata and entry-point documentation"
     },
     {
       "path": "preflight/iris_coverage_manifest.csv",
-      "sha256": "4b6ac58297c3a8f9e194b10292f5b856e61a5e9e559a25db10dca9e206b212c9",
-      "size_bytes": 61327,
+      "sha256": "0190c1a0d6ee062195f30f6741e717fb8b7f7eed7471bf05525135affb9b9a43",
+      "size_bytes": 61126,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/iris_excluded_questions.csv",
-      "sha256": "c57dac61508933683019a2567594413e5bdb2afe5780cfb16df1a12bf019acb0",
-      "size_bytes": 53235,
+      "sha256": "1f0ef902f4420663e06819b3a2090ec4cf9d6b2954eb559207358c3b175953b3",
+      "size_bytes": 53059,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/iris_execution_preflight.json",
-      "sha256": "7e2a8d54ba3b836dee13884303fd150c521160e9d3221f9c059a9c3040a9ae37",
-      "size_bytes": 8607,
+      "sha256": "b3cee65ccfdcc31b38da9e4b0d8df3cc8ad16e7af603298e93661732467a80f3",
+      "size_bytes": 8323,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/IRIS_EXECUTION_PREFLIGHT.md",
-      "sha256": "0777b45a067d6184f35105ff82e6160ce91d6075b3cb0349f26057ac50350e5d",
-      "size_bytes": 778,
+      "sha256": "8ab6ec7d3f0d51048ae94bf938b8b1c9f8eb9c0afbfd22a988fba2bbe53ed7a6",
+      "size_bytes": 762,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/iris_partial_questions.jsonl",
-      "sha256": "115b94727983efaf96751fcd9a7c75133c1df80a2923e52336f8f8e7bd1689d4",
-      "size_bytes": 3680,
+      "sha256": "1ac279e9b683bda46e3b9cc782d8f50cab6858f257123cdb72891a29989ccb6c",
+      "size_bytes": 3677,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/IRIS_PREFLIGHT_REPORT.md",
-      "sha256": "39390f5c343336ffafbc459dfda45ef8c2f9b872b112a2ccc1ff677482826712",
-      "size_bytes": 2400,
+      "sha256": "e9518ccbcf5763ad4f19927810a603551e2ff411120a59e0c3bc44661d5c6a17",
+      "size_bytes": 2321,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
       "path": "preflight/iris_supported_questions.jsonl",
-      "sha256": "b579ef3ba6b72321f87ee7c92bd7920049dd0a1ab11331a7602d52afbfc7e411",
-      "size_bytes": 28430,
+      "sha256": "7466c2f00b4bceb50db0eb3dbc623c550489914de832a838abe7d1e4d2e8124f",
+      "size_bytes": 28408,
       "purpose": "pre-registered Iris coverage decisions"
     },
     {
@@ -209,8 +209,8 @@
     },
     {
       "path": "prompts/iris.txt",
-      "sha256": "3c6c5b4d268562b2d9df2444755ee43274e90a06826e93808b07b2ed1fa21d01",
-      "size_bytes": 12288,
+      "sha256": "3c256349bd4fa734f0fbe3cafd7552286b63f3019f07db0da26a59223e83befe",
+      "size_bytes": 12075,
       "purpose": "experiment instructions"
     },
     {
@@ -227,14 +227,14 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "c98db587721ebe5341ac19ebf7827b7c569f6ecb3e1ef641b04e895dd76b9865",
-      "size_bytes": 538,
+      "sha256": "d9da21d0480b229dc4376081215218742cfb252f02e9f597c0d0166c271fa2e5",
+      "size_bytes": 797,
       "purpose": "release metadata and entry-point documentation"
     },
     {
       "path": "README.md",
-      "sha256": "a13124a93968249108a1d2283777abfdf08cf3f8c53a241067a8a0900ac4f33c",
-      "size_bytes": 5444,
+      "sha256": "635e89e474d0ac174dd74b3c4675f74ea1c9320aa795489276564a5c514a6b26",
+      "size_bytes": 6405,
       "purpose": "release metadata and entry-point documentation"
     },
     {
@@ -275,8 +275,8 @@
     },
     {
       "path": "results/fred_web/responses.jsonl",
-      "sha256": "68311dafadd577d1d86f50cdc8869fd3c050b3b2dc87f8c1fc0ddd87127303fc",
-      "size_bytes": 66814,
+      "sha256": "1084770dffe46a6114929412b36c4c1504faa8fdb8f2dbd27ffa297106440ef1",
+      "size_bytes": 66766,
       "purpose": "recorded responses, scores, traces, and run metadata"
     },
     {
@@ -311,8 +311,8 @@
     },
     {
       "path": "results/iris/responses.jsonl",
-      "sha256": "650cc90fb984c30c0ff8ef75d8ea8a67d2486486f5524a9b9e4066006b913ec4",
-      "size_bytes": 59366,
+      "sha256": "9d8be697049cba8051330a0e5ddce3f27e8535b614c1333c9a12cc11d18d1719",
+      "size_bytes": 59318,
       "purpose": "recorded responses, scores, traces, and run metadata"
     },
     {
@@ -335,8 +335,8 @@
     },
     {
       "path": "results/llm_only/responses.jsonl",
-      "sha256": "097524f44a9c19fee6e691da9ab5bdc77b4c519eae78cc5c03bb84c9b1cf3941",
-      "size_bytes": 35756,
+      "sha256": "dbf0c3dc2663e933190b5e292f9dda36dbd22fcd380db50817ad247dd78fc37e",
+      "size_bytes": 35708,
       "purpose": "recorded responses, scores, traces, and run metadata"
     },
     {

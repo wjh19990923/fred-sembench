@@ -16,6 +16,12 @@ authors = [
 ]
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/wjh19990923/fred-sembench"
+Paper = "https://aclanthology.org/2026.finnlp-1.19/"
+Dataset = "https://huggingface.co/datasets/wangjinh/FRED-SemBench"
+Issues = "https://github.com/wjh19990923/fred-sembench/issues"
+
 [project.scripts]
 fred-sembench = "fred_sembench.cli:main"
 
